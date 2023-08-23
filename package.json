@@ -1,0 +1,27 @@
+{
+  "name": "io.robin.cordova",
+  "displayName": "Calculator",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "./",
+  "description": "A simple Calculator for  calculating price of land using simple app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Apache Cordova Team",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "cordova-android": "^12.0.0",
+    "cordova-browser": "^7.0.0"
+  },
+  "cordova": {
+    "platforms": [
+      "android",
+      "browser"
+    ]
+  }
+}
